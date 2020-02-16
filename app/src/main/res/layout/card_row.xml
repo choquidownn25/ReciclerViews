@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="270dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+
+    card_view:cardElevation="10dp"
+    card_view:cardCornerRadius="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="0dp"
+            android:src="@drawable/city"
+            android:tag="image_tag" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txoee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Oee"
+                android:textSize="@dimen/activity_vertical_margin"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_oee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Android Name" />
+
+            <TextView
+                android:id="@+id/txtcapacidad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Capacidad"
+                android:textSize="@dimen/activity_vertical_margin"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_capacidad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Android Name" />
+
+
+            <TextView
+                android:id="@+id/txtfecha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fecha"
+                android:textSize="@dimen/activity_vertical_margin"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_fecha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Android Name" />
+
+
+
+            <TextView
+                android:id="@+id/txtmaquina"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Maquina"
+                android:textSize="@dimen/activity_vertical_margin"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_maquina"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Android Name" />
+
+            <TextView
+                android:id="@+id/txrendimiento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rendimiento"
+                android:textSize="@dimen/activity_vertical_margin"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_rendimiento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Android Name" />
+
+            <TextView
+                android:id="@+id/txcalidad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Calidad"
+                android:textSize="@dimen/activity_vertical_margin"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_calidad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Android Name" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
